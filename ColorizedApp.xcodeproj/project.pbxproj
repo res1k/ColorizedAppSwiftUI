@@ -11,6 +11,10 @@
 		FA58BEA0284F852A004747F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58BE9F284F852A004747F1 /* ContentView.swift */; };
 		FA58BEA2284F8530004747F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58BEA1284F8530004747F1 /* Assets.xcassets */; };
 		FA58BEA5284F8530004747F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58BEA4284F8530004747F1 /* Preview Assets.xcassets */; };
+		FAB74A1328649E38008FB056 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB74A1228649E38008FB056 /* ColorView.swift */; };
+		FAB74A152864A16E008FB056 /* ColorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB74A142864A16E008FB056 /* ColorTextView.swift */; };
+		FAB74A172864A20D008FB056 /* ColorTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB74A162864A20D008FB056 /* ColorTFView.swift */; };
+		FAB74A192864A44E008FB056 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB74A182864A44E008FB056 /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FA58BE9F284F852A004747F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA58BEA1284F8530004747F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA58BEA4284F8530004747F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB74A1228649E38008FB056 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		FAB74A142864A16E008FB056 /* ColorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextView.swift; sourceTree = "<group>"; };
+		FAB74A162864A20D008FB056 /* ColorTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTFView.swift; sourceTree = "<group>"; };
+		FAB74A182864A44E008FB056 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				FA58BE9D284F852A004747F1 /* ColorizedAppApp.swift */,
 				FA58BE9F284F852A004747F1 /* ContentView.swift */,
+				FAB74A182864A44E008FB056 /* ColorSliderView.swift */,
+				FAB74A1228649E38008FB056 /* ColorView.swift */,
+				FAB74A142864A16E008FB056 /* ColorTextView.swift */,
+				FAB74A162864A20D008FB056 /* ColorTFView.swift */,
 				FA58BEA1284F8530004747F1 /* Assets.xcassets */,
 				FA58BEA3284F8530004747F1 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB74A1328649E38008FB056 /* ColorView.swift in Sources */,
+				FAB74A152864A16E008FB056 /* ColorTextView.swift in Sources */,
 				FA58BEA0284F852A004747F1 /* ContentView.swift in Sources */,
 				FA58BE9E284F852A004747F1 /* ColorizedAppApp.swift in Sources */,
+				FAB74A172864A20D008FB056 /* ColorTFView.swift in Sources */,
+				FAB74A192864A44E008FB056 /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
